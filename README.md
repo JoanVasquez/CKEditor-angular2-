@@ -1,27 +1,23 @@
-# CkeditorAngular
+# CKeditor with Angular 2+ App.
+### Description
+In this project I will show you how to implement **CKeditor** with **Angular 2+** without using any external module but plain CKeditor plugin. Whether this project helped you, please donate for a coffee. Thanks.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=AFSV8TQBVW6LC)
 
-## Development server
+## Instruction
+Remember to make **npm i or npm install** in the root of the app to install the **modules**.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Structure
+* src
+    * index.html
+    * assets
+        * ckeditor -> added to index.html
+    * app
+        * app.component
 
-## Code scaffolding
+### Info
+In this project we're using **[Angular Cli](https://cli.angular.io/)**. Angular cli is a great for creating angular app.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+#### Demonstration
+![Login](https://raw.githubusercontent.com/JoanVasquez/CKEditor-angular2-/master/ckeditor.PNG)
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
